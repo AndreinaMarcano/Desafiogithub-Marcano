@@ -1,0 +1,131 @@
+body {
+  background-color: #a65aa2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px #432c57;
+  background-image: url("../multimedia/imagen/fondoagenda.png");
+}
+
+a {
+  text-decoration: none;
+  color: rgb(93, 31, 98);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Navegación */
+.logo {
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+}
+.logo img {
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+.logo h2 {
+  color: rgb(93, 31, 98);
+}
+
+.box-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link a {
+  padding: 30px;
+}
+
+.nav-link a:hover {
+  color: #a65aa2;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contacto {
+  margin-right: 20px;
+}
+
+.contacto ul li {
+  height: 25px;
+  display: flex;
+  color: rgb(93, 31, 98);
+  margin-top: 25px;
+}
+
+/* por ahora imagen de las redes */
+.contacto img {
+  height: 60px;
+  margin: 0;
+}
+
+section {
+  background-color: #ffb7f4;
+  border: solid 2px #432c57;
+  color: rgb(93, 31, 98);
+  margin: 10px;
+  background-image: url("../multimedia/imagen/fondoagenda.png");
+}
+
+
+
+/* USO DE GRID EN SECCION */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-gap: 10px;
+  padding: 50px;
+  margin-left: 10%;
+}
+
+.grid-titulo {
+  color: #a65aa2;
+}
+
+.grid-titulo:hover {
+  color: rgb(93, 31, 98);
+}
+
+.grid-imagen {
+  width: 70%;
+  height: 70%;
+  border: solid 3px #432c57;
+  object-fit: cover;
+}
+
+
+
+.grid-p{
+  color: rgb(93, 31, 98);
+
+}
+
+.footerbox {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border: solid 3px #a65aa2;
+  padding: 1em;
+}
+
+.footerbox img {
+  height: 70px;
+  border-radius: 40%;
+}
+
+.footerbox h3 {
+  color: rgb(93, 31, 98);
+}
+.footerbox h3:hover {
+  color: #ffb7f4;
+}
